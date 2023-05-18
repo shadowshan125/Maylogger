@@ -15,22 +15,9 @@ def on_key_press(event):
 
 # Function to save content to a file
 def save_content(content, filename):
-    # Check if the file already exists
-    if os.path.isfile(filename):
-        base_name, extension = os.path.splitext(filename)
-        counter = 1
-        new_filename = f"{base_name}_{counter}{extension}"
-
-        # Find an available filename by incrementing the counter
-        while os.path.isfile(new_filename):
-            counter += 1
-            new_filename = f"{base_name}_{counter}{extension}"
-
-        filename = new_filename
-
     # Write content to the file
     with open(filename, 'a') as file:  # Use 'a' mode to append content to the file
-        file.write(content + "\n")
+        file.write(content )
 
     print(f"Key saved to {filename}")
 
