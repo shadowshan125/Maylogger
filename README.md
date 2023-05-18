@@ -54,8 +54,27 @@ The code consists of the following main parts:
 
 4. Press the Alt + Shift + Ctrl + Esc combination to stop the key logger and exit the program.
 
+## Risk and Disclaimer
+
+**IMPORTANT: This code is provided for educational purposes only. It is intended to demonstrate the concept of a key logger and its implementation. The use of key loggers without proper authorization is illegal and a violation of privacy laws in many jurisdictions.**
+
+Using a key logger to capture and record someone's keystrokes without their explicit consent is unethical and can have serious legal consequences. It is crucial to respect the privacy and rights of individuals.
+
+The code provided in this repository is meant to serve as an educational resource to understand how key loggers work and for research purposes only. It should not be used in any malicious or unauthorized manner.
+
+By using this code, you agree that you will solely use it for educational purposes and that you understand the potential risks and legal implications associated with unauthorized key logging activities.
+
+The authors and contributors of this code repository cannot be held responsible for any misuse or illegal activities conducted using this code. It is your responsibility to comply with all applicable laws and regulations when using or modifying this code.
+
+If you have any doubts about the legality or ethical implications of using a key logger, it is strongly recommended to seek legal advice or consult with professionals who specialize in privacy and cybersecurity.
+
+Remember, always respect the privacy and rights of others, and only use your skills and knowledge for legitimate and lawful purposes.
+
 ## Note
 
 - Make sure to use this code responsibly and respect the privacy of others. Key logging without proper authorization is illegal in many jurisdictions.
 
 - Remember to check and comply with the laws and regulations of your country or region regarding the use of key loggers.
+
+## License
+[MIT License](LICENSE)
